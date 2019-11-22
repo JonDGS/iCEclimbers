@@ -6,7 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/main.c
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/Connector.c
+Connector.h
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/Connector.h
+
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/Connector.h
 stdio.h
+-
+ws2tcpip.h
+-
+string.h
+-
+NetPackage.h
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/NetPackage.h
+
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/NetPackage.h
+../libraries/cJSON/cJSON.h
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.h
+
+D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.h
+stddef.h
 -
 

@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/main.c" "D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/CMakeFiles/UI.dir/main.c.obj"
+  "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/Connector.c" "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/CMakeFiles/UI.dir/Networking/Connector.c.obj"
+  "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/NetPackage.c" "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/CMakeFiles/UI.dir/Networking/NetPackage.c.obj"
+  "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.c" "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj"
+  "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/main.c" "D:/OneDriveTEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/CMakeFiles/UI.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

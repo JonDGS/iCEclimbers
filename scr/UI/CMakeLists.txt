@@ -3,5 +3,5 @@ project(UI C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(UI main.c)
-add_library()
+add_executable(UI main.c Networking/NetPackage.c Networking/NetPackage.h libraries/cJSON/cJSON.c libraries/cJSON/cJSON.h Networking/Connector.h Networking/Connector.c)
+target_link_libraries(UI wsock32 ws2_32)

@@ -12,14 +12,18 @@ public class NetPackage {
     public void jsonToNetpackage(String jsonData){
         Gson gson = new Gson();
         JsonObject json = gson.fromJson(jsonData, JsonObject.class);
-        this.from = json.get("from").getAsString();
-        this.command = json.get("command").getAsString();
-        this.data = json.get("data").getAsString();
-        this.type = json.get("type").getAsString();
+        this.from = json.get("NetPackage").getAsJsonObject().get("from").getAsString();
+        this.command = json.get("NetPackage").getAsJsonObject().get("command").getAsString();
+        this.data = json.get("NetPackage").getAsJsonObject().get("data").getAsString();
+        this.type = json.get("NetPackage").getAsJsonObject().get("type").getAsString();
     }
 
     public String netpackageToJsonString(){
-        return new Gson().toJson(this);
+        Gson gson = new Gson();
+        JsonObject attributes = (JsonObject) gson.toJsonTree(this);
+        JsonObject root = new JsonObject();
+        root.add("NetPackage", attributes);
+        return gson.toJson(root);
     }
 
     public String getFrom() {
@@ -36,5 +40,21 @@ public class NetPackage {
 
     public String getType() {
         return type;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public void setCommand(String command) {
+        this.command = command;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }
