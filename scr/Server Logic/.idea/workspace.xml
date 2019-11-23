@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e02b0598-a852-40c1-8104-be952a07861f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server Logic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server Logic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iceclimberlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iceclimberlogic/GameLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/iceclimberlogic/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iceclimberlogic/Player.java" afterDir="false" />
     </list>
@@ -103,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574030497872</updated>
-      <workItem from="1574499886142" duration="6397000" />
+      <workItem from="1574499886142" duration="8090000" />
     </task>
     <servers />
   </component>

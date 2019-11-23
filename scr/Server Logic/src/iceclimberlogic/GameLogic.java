@@ -69,6 +69,15 @@ public class GameLogic {
         }
     }
 
+    public void jumpAndHit(int plyrID){
+        if(plyrID == 1){
+            this.plyr1.setScore(0);
+        }else if(plyrID == 2){
+            this.plyr2.setScore(0);
+        }
+
+    }
+
     private Enemy createEnemy(int enemID){
         int[] pos = new int[2];
         int rnd = (int) Math.round(Math.random() * ((5-0) + 1 + 0));

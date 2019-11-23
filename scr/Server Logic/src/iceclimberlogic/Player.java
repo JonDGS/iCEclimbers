@@ -12,7 +12,7 @@ package iceclimberlogic;
 public class Player extends Thread {
     private int genre;
     private String name;
-    private int life;
+    private boolean alive;
     private int[] score = {0,0,0,0,0};
     private int[] pos = {0,0};
     
@@ -34,7 +34,7 @@ public class Player extends Thread {
                 break;
         }
         this.enem = enem;
-        this.life = 3;
+        this.alive = true;
     }
     
     @Override
@@ -58,7 +58,7 @@ public class Player extends Thread {
     
     public boolean hitEne(){
         for(int i = 0; i < enem.length; i++){
-            if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 1) && (this.pos[1] == this.enem[i].getPos()[1])){
+            if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 2) && (this.pos[1] == this.enem[i].getPos()[1])){
                 this.enem[i].setAlive(false);
                 System.out.println("Enemy killed!");
                 return true;
@@ -71,13 +71,19 @@ public class Player extends Thread {
     //******************** GETTERS AND SETTERS ********************************* 
     //**************************************************************************
     
-    public void setLife(int life){
-        this.life = life;
+    public void setAlive(boolean alive){
+        this.alive = alive;
     }
     
-    public void setPos(int x, int y){
+    public boolean setPos(int x, int y){
         this.pos[0] = x;
         this.pos[1] = y;
+        for(int i = 0; i < enem.length; i++){
+            if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 2) && (this.pos[1] == this.enem[i].getPos()[1])) {
+                this.alive = false;
+            }
+        }
+        return this.alive;
     }
 
     public void setScore(int id){
@@ -109,8 +115,8 @@ public class Player extends Thread {
         }
     }
     
-    public int getLife(){
-        return this.life;
+    public boolean checkIsAlive(){
+        return this.alive;
     }
     
     public int[] getPos(){
