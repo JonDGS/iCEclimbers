@@ -10,18 +10,16 @@ package iceclimberlogic;
  * @author david
  */
 public class Player extends Thread {
-    // Matriz [57][32]
     private int genre;
     private String name;
     private int life;
-    private int score[];
-    private int pos[] = {0,0};
+    private int[] score = {0,0,0,0,0};
+    private int[] pos = {0,0};
     
     private int step = 1;
-    private Enemy enem[];
+    private Enemy[] enem;
     
     public Player(int genre, Enemy enem[]){
-        this.score = new int[5];
         switch (genre) {
             case 1:
                 this.genre = genre;
@@ -81,6 +79,35 @@ public class Player extends Thread {
         this.pos[0] = x;
         this.pos[1] = y;
     }
+
+    public void setScore(int id){
+        switch(id){
+            case 7:
+                this.score[2] += 400;
+                break;
+            case 8:
+                this.score[3] += 800;
+                break;
+            case 10:
+                this.score[0] += 3000;
+                break;
+            case 11:
+                this.score[1] += 100;
+                break;
+            case 12:
+                this.score[1] += 200;
+                break;
+            case 13:
+                this.score[1] += 300;
+                break;
+            case 14:
+                this.score[1] += 400;
+                break;
+            default:
+                this.score[4] += 10;
+                break;
+        }
+    }
     
     public int getLife(){
         return this.life;
@@ -88,5 +115,9 @@ public class Player extends Thread {
     
     public int[] getPos(){
         return this.pos;
+    }
+
+    public int[] getScore(){
+        return this.score;
     }
 }
