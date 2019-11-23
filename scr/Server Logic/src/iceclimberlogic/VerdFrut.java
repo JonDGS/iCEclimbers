@@ -12,7 +12,7 @@ package iceclimberlogic;
 public class VerdFrut {
     private final int id;
     private int pts;
-
+    
     VerdFrut(int id){
         this.id = id;
         switch(pts){
@@ -34,17 +34,16 @@ public class VerdFrut {
                 break;
         }
     }
-
+    
     /***************************************************************************
-     ********************* GETTERS AND SETTERS **********************************
-     ***************************************************************************/
-
+    ********************* GETTERS AND SETTERS **********************************
+    ***************************************************************************/
+    
     public int getPts(){
         return this.pts;
     }
-
+    
     public int getId(){
         return this.id;
     }
 }
-

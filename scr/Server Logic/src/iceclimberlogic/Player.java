@@ -14,12 +14,14 @@ public class Player extends Thread {
     private int genre;
     private String name;
     private int life;
+    private int score[];
     private int pos[] = {0,0};
-
+    
     private int step = 1;
     private Enemy enem[];
-
-    Player(int genre, Enemy enem[]){
+    
+    public Player(int genre, Enemy enem[]){
+        this.score = new int[5];
         switch (genre) {
             case 1:
                 this.genre = genre;
@@ -36,14 +38,14 @@ public class Player extends Thread {
         this.enem = enem;
         this.life = 3;
     }
-
+    
     @Override
     public void run(){
         try {
             while (true){
                 this.pos[0] += step;
                 if(hitEne()){
-                    break;
+                   break;
                 }
                 if(this.pos[0] == 31 || this.pos[0] == 0){
                     step *= -1;
@@ -55,7 +57,7 @@ public class Player extends Thread {
             System.out.println("Thread interrupted.");
         }
     }
-
+    
     public boolean hitEne(){
         for(int i = 0; i < enem.length; i++){
             if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 1) && (this.pos[1] == this.enem[i].getPos()[1])){
@@ -66,24 +68,24 @@ public class Player extends Thread {
         }
         return false;
     }
-
+    
     //**************************************************************************
-    //******************** GETTERS AND SETTERS *********************************
+    //******************** GETTERS AND SETTERS ********************************* 
     //**************************************************************************
-
+    
     public void setLife(int life){
         this.life = life;
     }
-
+    
     public void setPos(int x, int y){
         this.pos[0] = x;
         this.pos[1] = y;
     }
-
+    
     public int getLife(){
         return this.life;
     }
-
+    
     public int[] getPos(){
         return this.pos;
     }
