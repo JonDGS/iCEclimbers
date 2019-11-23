@@ -17,16 +17,16 @@ public class Enemy extends Thread {
     private int pos[];
     private int enem;
     private boolean alive = true;
-
+    
     private int stepH = 1;
     private int stepV = 1;
-
-    Enemy(int enem, int[] pos){
+    
+    public Enemy(int enem, int[] pos){
         this.enem = enem;
         this.pos = pos;
     }
-
-
+    
+    
     @Override
     public void run() {
         switch (this.enem){
@@ -74,13 +74,13 @@ public class Enemy extends Thread {
                         if(this.pos[1] == 109){
                             this.alive = false;
                         }else{
-                            this.pos[1] += 1;
+                            this.pos[1] += 1;                              
                         }
                         System.out.println("Hielo -> X: " + this.pos[0] + " Y: " + this.pos[1]);
-                        Thread.sleep(250);
+                        Thread.sleep(250);                          
                     }catch(InterruptedException ex){
                         System.out.println("Thread interrupted!");
-                    }
+                    }                   
                 }
                 this.pos[0] = -1;
                 this.pos[1] = -1;
@@ -100,35 +100,35 @@ public class Enemy extends Thread {
                     }
                 }
                 break;
-        }
+        }            
     }
-
+    
     //**************************************************************************
-    //******************** GETTERS AND SETTERS *********************************
+    //******************** GETTERS AND SETTERS ********************************* 
     //**************************************************************************
-
+    
     public void setEnem(int enem){
         this.enem = enem;
     }
-
+    
     public void setPos(int x, int y){
         this.pos[0] = x;
         this.pos[1] = y;
         System.out.println("Enemigo en posicion x: " + this.pos[0] + " y: " + this.pos[1]);
     }
-
+    
     public void setAlive(boolean alive){
         this.alive = alive;
     }
-
+    
     public boolean getAlive(){
         return this.alive;
     }
-
+    
     public int[] getPos(){
         return this.pos;
     }
-
+    
     public int getEnem(){
         return this.enem;
     }

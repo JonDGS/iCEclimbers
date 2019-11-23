@@ -17,9 +17,9 @@ public class ICEclimberLogic {
         // TODO code application logic here
         int plyrs[][] = {{1,5, 107}, {2, 27,107}};
         int ids[] = {10,7,7,8,9};
-        /*GameLogic gl = new GameLogic(12,5, ids);
+        GameLogic gl = new GameLogic(5, ids);
         gl.initEnemies();
-        gl.createPlyrs(plyrs);*/
+        gl.createPlyrs(plyrs);
     }
-
+    
 }

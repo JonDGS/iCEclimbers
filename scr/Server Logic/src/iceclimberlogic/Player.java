@@ -10,16 +10,16 @@ package iceclimberlogic;
  * @author david
  */
 public class Player extends Thread {
-    // Matriz [57][32]
     private int genre;
     private String name;
-    private int life;
-    private int pos[] = {0,0};
-
+    private boolean alive;
+    private int[] score = {0,0,0,0,0};
+    private int[] pos = {0,0};
+    
     private int step = 1;
-    private Enemy enem[];
-
-    Player(int genre, Enemy enem[]){
+    private Enemy[] enem;
+    
+    public Player(int genre, Enemy enem[]){
         switch (genre) {
             case 1:
                 this.genre = genre;
@@ -34,16 +34,16 @@ public class Player extends Thread {
                 break;
         }
         this.enem = enem;
-        this.life = 3;
+        this.alive = true;
     }
-
+    
     @Override
     public void run(){
         try {
             while (true){
                 this.pos[0] += step;
                 if(hitEne()){
-                    break;
+                   break;
                 }
                 if(this.pos[0] == 31 || this.pos[0] == 0){
                     step *= -1;
@@ -55,10 +55,10 @@ public class Player extends Thread {
             System.out.println("Thread interrupted.");
         }
     }
-
+    
     public boolean hitEne(){
         for(int i = 0; i < enem.length; i++){
-            if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 1) && (this.pos[1] == this.enem[i].getPos()[1])){
+            if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 2) && (this.pos[1] == this.enem[i].getPos()[1])){
                 this.enem[i].setAlive(false);
                 System.out.println("Enemy killed!");
                 return true;
@@ -66,25 +66,64 @@ public class Player extends Thread {
         }
         return false;
     }
-
+    
     //**************************************************************************
-    //******************** GETTERS AND SETTERS *********************************
+    //******************** GETTERS AND SETTERS ********************************* 
     //**************************************************************************
-
-    public void setLife(int life){
-        this.life = life;
+    
+    public void setAlive(boolean alive){
+        this.alive = alive;
     }
-
-    public void setPos(int x, int y){
+    
+    public boolean setPos(int x, int y){
         this.pos[0] = x;
         this.pos[1] = y;
+        for(int i = 0; i < enem.length; i++){
+            if((Math.abs(this.pos[0] - this.enem[i].getPos()[0]) <= 2) && (this.pos[1] == this.enem[i].getPos()[1])) {
+                this.alive = false;
+            }
+        }
+        return this.alive;
     }
 
-    public int getLife(){
-        return this.life;
+    public void setScore(int id){
+        switch(id){
+            case 7:
+                this.score[2] += 400;
+                break;
+            case 8:
+                this.score[3] += 800;
+                break;
+            case 10:
+                this.score[0] += 3000;
+                break;
+            case 11:
+                this.score[1] += 100;
+                break;
+            case 12:
+                this.score[1] += 200;
+                break;
+            case 13:
+                this.score[1] += 300;
+                break;
+            case 14:
+                this.score[1] += 400;
+                break;
+            default:
+                this.score[4] += 10;
+                break;
+        }
     }
-
+    
+    public boolean checkIsAlive(){
+        return this.alive;
+    }
+    
     public int[] getPos(){
         return this.pos;
+    }
+
+    public int[] getScore(){
+        return this.score;
     }
 }

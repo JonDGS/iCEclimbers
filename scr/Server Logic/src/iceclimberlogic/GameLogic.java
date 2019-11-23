@@ -11,13 +11,13 @@ package iceclimberlogic;
  */
 public class GameLogic {
     private final int[] floors = {60,67,74,81,95,102};
-    private int enemiesMatrix[][];
-    private Enemy enemiesArray[];
+    private int[][] enemiesMatrix;
+    private Enemy[] enemiesArray;
     private int enemQ;
     private Player plyr1, plyr2;
     private final String gameID;
 
-    public GameLogic(int enemQ, int enemiesIDs[]){
+    public GameLogic(int enemQ, int[] enemiesIDs){
         this.gameID = this.toString();
         this.enemQ = enemQ;
         this.enemiesMatrix = new int[this.enemQ][3];
@@ -42,19 +42,20 @@ public class GameLogic {
             this.enemiesMatrix[i][0] = this.enemiesArray[i].getEnem();
             this.enemiesMatrix[i][1] = this.enemiesArray[i].getPos()[0];
             this.enemiesMatrix[i][2] = this.enemiesArray[i].getPos()[1];
-            System.out.println(this.enemiesMatrix[i][0] + " -> X: " + this.enemiesMatrix[i][1] + " Y: " + this.enemiesMatrix[i][2]);
+            System.out.println(this.enemiesMatrix[i][0] + " -> X: " +
+                    this.enemiesMatrix[i][1] + " Y: " + this.enemiesMatrix[i][2]);
         }
         return this.enemiesMatrix;
     }
 
-    public void setUpdate(int plyrs[][]){
+    public void setUpdate(int[][] plyrs){
         this.plyr1.setPos(plyrs[0][1], plyrs[0][2]);
         if(plyrs[1][0] != 0){
             this.plyr2.setPos(plyrs[1][1], plyrs[1][2]);
         }
     }
 
-    public void createPlyrs(int plyrs[][]){
+    public void createPlyrs(int[][] plyrs){
         this.plyr1 = new Player(1, this.enemiesArray);
         this.plyr1.setPos(plyrs[0][1], plyrs[0][2]);
         if(plyrs[1][0] != 0){
@@ -63,16 +64,25 @@ public class GameLogic {
         }
     }
 
-    public void hitEnemy(int plyrID){
-        if(plyrID == 1){
-            this.plyr1.hitEne();
-        }else{
-            this.plyr2.hitEne();
+    public void hitEnemy(int plyrID, int enemyID){
+        if(plyrID == 1 && this.plyr1.hitEne()){
+            this.plyr1.setScore(enemyID);
+        }else if(plyrID == 2 && this.plyr2.hitEne()){
+            this.plyr2.setScore(enemyID);
         }
     }
 
-    public final Enemy createEnemy(int enemID){
-        int pos[] = new int[2];
+    public void jumpAndHit(int plyrID){
+        if(plyrID == 1){
+            this.plyr1.setScore(0);
+        }else if(plyrID == 2){
+            this.plyr2.setScore(0);
+        }
+
+    }
+
+    private Enemy createEnemy(int enemID){
+        int[] pos = new int[2];
         int rnd = (int) Math.round(Math.random() * ((5-0) + 1 + 0));
         if(rnd == 6) rnd -= 1;
         switch(enemID){
@@ -85,7 +95,6 @@ public class GameLogic {
                 pos[1] = this.floors[rnd] - 2;
                 break;
             case 8:
-                pos[0] = 0;
                 pos[1] = this.floors[rnd] - 2;
                 break;
             case 9:
@@ -95,7 +104,6 @@ public class GameLogic {
                 break;
             case 10:
                 pos[0] = 2;
-                pos[1] = 0;
                 break;
             default:
                 break;
