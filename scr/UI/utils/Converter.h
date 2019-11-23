@@ -25,6 +25,11 @@ int** convertStringToIntegerArray(char* data);
  */
 char* convertIntegerArrayToString(int** array, int rows, int columns);
 
+/**
+ * Converts String to char Arrays
+ * @param data to convert
+ * @return Char* of data
+ */
 char* convertStringToCharArray(char* data);
 
 #endif //UI_CONVERTER_H

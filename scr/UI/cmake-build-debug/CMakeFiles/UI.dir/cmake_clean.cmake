@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UI.dir/main.c.obj"
   "CMakeFiles/UI.dir/Networking/NetPackage.c.obj"
   "CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj"
   "CMakeFiles/UI.dir/Networking/Connector.c.obj"
   "CMakeFiles/UI.dir/utils/Converter.c.obj"
+  "CMakeFiles/UI.dir/gui.c.obj"
   "UI.pdb"
   "UI.exe"
   "UI.exe.manifest"

@@ -51,7 +51,27 @@ void sendPlayerMovement(char* id, int** players, int rows, int columns);
  */
 char* getGameOver(char* id);
 
+/**
+ * Creates a game session on the server
+ * @param enemies amount
+ * @param enemieID codes
+ * @param rows enemieID
+ * @return gameID
+ */
 char* createGameSession(int enemies, int enemieID[], int rows);
+
+/**
+ * Send damage done to the player to the Server
+ * @param playerID
+ * @param enemyID
+ */
+/**
+ * Sends a hit from one player to an obstacule
+ * @param gameID of the game in the Server
+ * @param playerID 
+ * @param enemyID
+ */
+void sendHit(char* gameID, int playerID, int enemyID);
 
 
 #endif //UI_CONNECTOR_H

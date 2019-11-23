@@ -1,6 +1,7 @@
 package networking;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 /**
@@ -18,11 +19,12 @@ public class NetPackage {
      */
     public void jsonToNetpackage(String jsonData){
         Gson gson = new Gson();
-        JsonObject json = gson.fromJson(jsonData, JsonObject.class);
-        this.from = json.get("NetPackage").getAsJsonObject().get("from").getAsString();
-        this.command = json.get("NetPackage").getAsJsonObject().get("command").getAsString();
-        this.data = json.get("NetPackage").getAsJsonObject().get("data").getAsString();
-        this.type = json.get("NetPackage").getAsJsonObject().get("type").getAsString();
+        JsonObject preJson = gson.fromJson(jsonData, JsonObject.class);
+        JsonElement json = preJson.get("NetPackage");
+        this.from = json.getAsJsonObject().get("from").getAsString();
+        this.command = json.getAsJsonObject().get("command").getAsString();
+        this.data = json.getAsJsonObject().get("data").getAsString();
+        this.type = json.getAsJsonObject().get("type").getAsString();
     }
 
     /**

@@ -10,14 +10,15 @@
  */
 char* addNewLineAtTheEnd(char* entry){
     int size = strlen(entry);
-    char* newEntry = malloc(sizeof(char) * (size + 2));
-    ZeroMemory(newEntry, (sizeof(char) * (size + 2)));
+    char* newEntry = malloc(sizeof(char) * (size + 3));
+    ZeroMemory(newEntry, (sizeof(char) * (size + 3)));
     int i;
     newEntry[0] = '\n';
     for(i = 0; i < size; i++){
         newEntry[i + 1] = entry[i];
     }
-    newEntry[size] = '\n';
+    newEntry[size] = '}';
+    newEntry[size+1] = '\n';
     printf("Turn into %s\n", newEntry);
     return newEntry;
 }
@@ -102,6 +103,7 @@ int inet_pton(int af, const char *src, void *dst)
     return 0;
 }
 
+
 /**
  * Converts to Small indian to big indian
  * @param af
@@ -110,6 +112,7 @@ int inet_pton(int af, const char *src, void *dst)
  * @param size
  * @return Modification
  */
+ /*
 const char *inet_ntop(int af, const void *src, char *dst, socklen_t size)
 {
     struct sockaddr_storage ss;
@@ -128,10 +131,9 @@ const char *inet_ntop(int af, const void *src, char *dst, socklen_t size)
         default:
             return NULL;
     }
-    /* cannot direclty use &size because of strict aliasing rules */
     return (WSAAddressToString((struct sockaddr *)&ss, sizeof(ss), NULL, dst, &s) == 0)?
            dst : NULL;
-}
+}*/
 
 char* sendRequest(char* id, char* command, char* data, char* type) {
     //Initializing WinSock
@@ -168,7 +170,7 @@ char* sendRequest(char* id, char* command, char* data, char* type) {
     char* firstJson = convertToJSON(id, command, data, type);
     char* preJson = addNewLineAtTheEnd(firstJson);
     char* json = attackNumberOfLines(preJson);
-    printf("Sending %s\n", json);
+    printf("Sending %s\n", firstJson);
     int sendResult = send(sock, json, strlen(json) + 1, 0);
     if(sendResult != SOCKET_ERROR){
         ZeroMemory(buf, BufferSize);
@@ -178,7 +180,9 @@ char* sendRequest(char* id, char* command, char* data, char* type) {
             WSACleanup();
             //char* response = getDataFromBuffer(buf, bytesReceived);
             printf("Got response: %s\n", buf);
-            return buf;
+            char* buff = malloc(sizeof(char) * strlen(buf));
+            strcpy(buff,buf);
+            return buff;
         }
     }
     return "";
@@ -192,7 +196,18 @@ int** update(char* id){
 }
 
 void sendPlayerMovement(char* id, int** players, int rows, int columns){
-    char* data = convertIntegerArrayToString(players, rows, columns);
+    int** newData = (int**) malloc(sizeof(int*) * rows);
+    for(int i = 0; i < 2; i++){
+        newData[i] = (int*) malloc(sizeof(int) * columns);
+    }
+    for(int i = 0; i < rows; i++){
+        int* current = malloc(sizeof(int) * columns);
+        for(int j = 0; j < columns; j++){
+            current[j] = players[i][j];
+        }
+        newData[i] = current;
+    }
+    char* data = convertIntegerArrayToString(newData, rows, columns);
     sendRequest(id, "updatePlayers", data, "NONE");
 }
 
@@ -202,12 +217,18 @@ char* getGameOver(char* id){
     char* newScores = convertStringToCharArray(scores);
 }
 
+void sendHit(char* gameID, int playerID, int enemyID){
+    int* array = malloc(sizeof(int) * 2);
+    char* arrayString = cJSON_Print(cJSON_CreateIntArray(array, 2));
+    sendRequest(gameID, "HIT", arrayString, "NONE");
+}
+
 char* createGameSession(int enemies, int enemieID[], int rows){
     cJSON* root = cJSON_CreateObject();
     cJSON_AddItemToObject(root, "enemies", cJSON_CreateString(integerToCharArray(enemies)));
     cJSON* array = cJSON_CreateIntArray(enemieID, rows);
-    cJSON_AddItemToObject(root, "enemie", array);
+    cJSON_AddItemToObject(root, "enemiesID", array);
     char* response = sendRequest("NONE", "CREATE", cJSON_Print(root), "NONE");
     char* data = getDataFromJSON(response);
-    return response;
+    return data;
 }

@@ -10,7 +10,7 @@ int** convertStringToIntegerArray(char* data) {
     cJSON* first = cJSON_GetArrayItem(array, 0);
     int columns = cJSON_GetArraySize(first);
     int** newArray = (int **) malloc(sizeof(int *) * rows);
-    for(int i = 0; i < columns; i++){
+    for(int i = 0; i < rows; i++){
         newArray[i] = (int *) malloc(sizeof(int) * columns);
     }
     for(int i = 0; i < rows; i++){
@@ -24,9 +24,9 @@ int** convertStringToIntegerArray(char* data) {
     return newArray;
 }
 
-char* convertIntegerArrayToString(int** array, int rows, int columns){
+char* convertIntegerArrayToString(int **array, int rows, int columns){
     cJSON* root = cJSON_CreateArray();
-    for(int i = 0; i < rows; rows++){
+    for(int i = 0; i < rows; i++){
         cJSON* current = cJSON_CreateIntArray(array[i], columns);
         cJSON_AddItemToArray(root, current);
     }

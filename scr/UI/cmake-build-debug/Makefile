@@ -176,6 +176,33 @@ Networking/NetPackage.c.s:
 	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/NetPackage.c.s
 .PHONY : Networking/NetPackage.c.s
 
+gui.obj: gui.c.obj
+
+.PHONY : gui.obj
+
+# target to build an object file
+gui.c.obj:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/gui.c.obj
+.PHONY : gui.c.obj
+
+gui.i: gui.c.i
+
+.PHONY : gui.i
+
+# target to preprocess a source file
+gui.c.i:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/gui.c.i
+.PHONY : gui.c.i
+
+gui.s: gui.c.s
+
+.PHONY : gui.s
+
+# target to generate assembly for a file
+gui.c.s:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/gui.c.s
+.PHONY : gui.c.s
+
 libraries/cJSON/cJSON.obj: libraries/cJSON/cJSON.c.obj
 
 .PHONY : libraries/cJSON/cJSON.obj
@@ -202,33 +229,6 @@ libraries/cJSON/cJSON.s: libraries/cJSON/cJSON.c.s
 libraries/cJSON/cJSON.c.s:
 	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.s
 .PHONY : libraries/cJSON/cJSON.c.s
-
-main.obj: main.c.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/main.c.s
-.PHONY : main.c.s
 
 utils/Converter.obj: utils/Converter.c.obj
 
@@ -272,12 +272,12 @@ help:
 	@echo ... Networking/NetPackage.obj
 	@echo ... Networking/NetPackage.i
 	@echo ... Networking/NetPackage.s
+	@echo ... gui.obj
+	@echo ... gui.i
+	@echo ... gui.s
 	@echo ... libraries/cJSON/cJSON.obj
 	@echo ... libraries/cJSON/cJSON.i
 	@echo ... libraries/cJSON/cJSON.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... utils/Converter.obj
 	@echo ... utils/Converter.i
 	@echo ... utils/Converter.s

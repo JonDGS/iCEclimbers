@@ -5,8 +5,10 @@ import java.io.*;
 import java.net.Socket;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import game.MatchHandler;
+import javafx.css.Match;
 import utils.Converter;
 
 /**
@@ -17,6 +19,7 @@ public class ClientHandler extends Thread {
     final BufferedReader inputStream;
     final PrintWriter outputStream;
     final MatchHandler matchHandler;
+    final Gson gson;
 
     /**
      * Converts command strings to int to be use in switch statement
@@ -32,6 +35,8 @@ public class ClientHandler extends Thread {
             return 2;
         }if(command.equals("CREATE")){
             return 3;
+        }if(command.equals("HIT")){
+            return 4;
         }
         return -1;
     }
@@ -42,6 +47,7 @@ public class ClientHandler extends Thread {
         this.inputStream = dataInputStream;
         this.outputStream = dataOutputStream;
         this.matchHandler = matchHandler;
+        this.gson = new Gson();
         System.out.println("Client started");
     }
 
@@ -62,6 +68,8 @@ public class ClientHandler extends Thread {
                     for (int i = 0; i < numberOfLines; i++) {
                         receivedData += this.inputStream.readLine();
                     }
+                    System.out.println("Received: " + receivedData);
+                    JsonObject json = new Gson().fromJson(receivedData, JsonObject.class);
                     NetPackage netPackage = new NetPackage();
                     netPackage.jsonToNetpackage(receivedData);
                     String data = netPackage.getData();
@@ -84,16 +92,24 @@ public class ClientHandler extends Thread {
                             responsePack.setData(dataResponse);
                             break;
                         case 1:
-                            matchHandler.searchGameByID(id).setUpdate(converter.convertStringToIntegerArray(data));
+                            MatchHandler matchHandler = this.matchHandler;
+                            int array [][]= converter.convertStringToIntegerArray(data);
+                            matchHandler.searchGameByID(id).setUpdate(array);
                             break;
                         case 2:
                             //dataResponse = converter.convertIntegerArrayToString(matchHandler.)
                         case 3:
-                            int enemies = gson.fromJson("enemies", int.class);
-                            int enemieID[] = gson.fromJson("enemieID", int[].class);
-                            String gameID = matchHandler.createGame(enemies, enemieID);
+                            JsonObject theData = gson.fromJson(data, JsonObject.class);
+                            String enemiesStr = theData.get("enemies").getAsString();
+                            JsonElement enemieIDStr = theData.get("enemiesID");
+                            int enemies = gson.fromJson(enemiesStr, int.class);
+                            int enemieID[] = gson.fromJson(enemieIDStr, int[].class);
+                            String gameID = this.matchHandler.createGame(enemies, enemieID);
                             responsePack.setData(gameID);
                             break;
+                        case 4:
+                            int[] hitPlayer = gson.fromJson(data, int[].class);
+                            this.matchHandler.searchGameByID(id).hitEnemy(hitPlayer[0], hitPlayer[1]);
                     }
                     String response = responsePack.netpackageToJsonString();
                     System.out.println("Sending " + response + " to " + this.socket);

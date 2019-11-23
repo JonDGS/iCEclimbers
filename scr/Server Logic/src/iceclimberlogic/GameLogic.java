@@ -22,10 +22,13 @@ public class GameLogic {
         this.enemQ = enemQ;
         this.enemiesMatrix = new int[this.enemQ][3];
         this.enemiesArray = new Enemy[this.enemQ];
+        int players[][] = {{0,0,0},{0,0,0}};
+        this.createPlyrs(players);
 
         for(int i = 0; i < this.enemQ; i++){
             this.enemiesArray[i] = createEnemy(enemiesIDs[i]);
         }
+        this.initEnemies();
     }
 
     public void initEnemies(){

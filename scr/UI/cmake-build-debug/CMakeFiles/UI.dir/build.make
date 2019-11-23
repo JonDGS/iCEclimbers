@@ -56,87 +56,92 @@ include CMakeFiles/UI.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/UI.dir/flags.make
 
-CMakeFiles/UI.dir/main.c.obj: CMakeFiles/UI.dir/flags.make
-CMakeFiles/UI.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/UI.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\main.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\main.c"
-
-CMakeFiles/UI.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UI.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\main.c" > CMakeFiles\UI.dir\main.c.i
-
-CMakeFiles/UI.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UI.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\main.c" -o CMakeFiles\UI.dir\main.c.s
-
 CMakeFiles/UI.dir/Networking/NetPackage.c.obj: CMakeFiles/UI.dir/flags.make
+CMakeFiles/UI.dir/Networking/NetPackage.c.obj: CMakeFiles/UI.dir/includes_C.rsp
 CMakeFiles/UI.dir/Networking/NetPackage.c.obj: ../Networking/NetPackage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/UI.dir/Networking/NetPackage.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\Networking\NetPackage.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\NetPackage.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/UI.dir/Networking/NetPackage.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\Networking\NetPackage.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\NetPackage.c"
 
 CMakeFiles/UI.dir/Networking/NetPackage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UI.dir/Networking/NetPackage.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\NetPackage.c" > CMakeFiles\UI.dir\Networking\NetPackage.c.i
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\NetPackage.c" > CMakeFiles\UI.dir\Networking\NetPackage.c.i
 
 CMakeFiles/UI.dir/Networking/NetPackage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UI.dir/Networking/NetPackage.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\NetPackage.c" -o CMakeFiles\UI.dir\Networking\NetPackage.c.s
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\NetPackage.c" -o CMakeFiles\UI.dir\Networking\NetPackage.c.s
 
 CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj: CMakeFiles/UI.dir/flags.make
+CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj: CMakeFiles/UI.dir/includes_C.rsp
 CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj: ../libraries/cJSON/cJSON.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\libraries\cJSON\cJSON.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\libraries\cJSON\cJSON.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\libraries\cJSON\cJSON.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\libraries\cJSON\cJSON.c"
 
 CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\libraries\cJSON\cJSON.c" > CMakeFiles\UI.dir\libraries\cJSON\cJSON.c.i
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\libraries\cJSON\cJSON.c" > CMakeFiles\UI.dir\libraries\cJSON\cJSON.c.i
 
 CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\libraries\cJSON\cJSON.c" -o CMakeFiles\UI.dir\libraries\cJSON\cJSON.c.s
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\libraries\cJSON\cJSON.c" -o CMakeFiles\UI.dir\libraries\cJSON\cJSON.c.s
 
 CMakeFiles/UI.dir/Networking/Connector.c.obj: CMakeFiles/UI.dir/flags.make
+CMakeFiles/UI.dir/Networking/Connector.c.obj: CMakeFiles/UI.dir/includes_C.rsp
 CMakeFiles/UI.dir/Networking/Connector.c.obj: ../Networking/Connector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/UI.dir/Networking/Connector.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\Networking\Connector.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\Connector.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/UI.dir/Networking/Connector.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\Networking\Connector.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\Connector.c"
 
 CMakeFiles/UI.dir/Networking/Connector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UI.dir/Networking/Connector.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\Connector.c" > CMakeFiles\UI.dir\Networking\Connector.c.i
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\Connector.c" > CMakeFiles\UI.dir\Networking\Connector.c.i
 
 CMakeFiles/UI.dir/Networking/Connector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UI.dir/Networking/Connector.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\Connector.c" -o CMakeFiles\UI.dir\Networking\Connector.c.s
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\Networking\Connector.c" -o CMakeFiles\UI.dir\Networking\Connector.c.s
 
 CMakeFiles/UI.dir/utils/Converter.c.obj: CMakeFiles/UI.dir/flags.make
+CMakeFiles/UI.dir/utils/Converter.c.obj: CMakeFiles/UI.dir/includes_C.rsp
 CMakeFiles/UI.dir/utils/Converter.c.obj: ../utils/Converter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/UI.dir/utils/Converter.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\utils\Converter.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\utils\Converter.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/UI.dir/utils/Converter.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\utils\Converter.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\utils\Converter.c"
 
 CMakeFiles/UI.dir/utils/Converter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UI.dir/utils/Converter.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\utils\Converter.c" > CMakeFiles\UI.dir\utils\Converter.c.i
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\utils\Converter.c" > CMakeFiles\UI.dir\utils\Converter.c.i
 
 CMakeFiles/UI.dir/utils/Converter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UI.dir/utils/Converter.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\utils\Converter.c" -o CMakeFiles\UI.dir\utils\Converter.c.s
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\utils\Converter.c" -o CMakeFiles\UI.dir\utils\Converter.c.s
+
+CMakeFiles/UI.dir/gui.c.obj: CMakeFiles/UI.dir/flags.make
+CMakeFiles/UI.dir/gui.c.obj: CMakeFiles/UI.dir/includes_C.rsp
+CMakeFiles/UI.dir/gui.c.obj: ../gui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/UI.dir/gui.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\UI.dir\gui.c.obj   -c "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\gui.c"
+
+CMakeFiles/UI.dir/gui.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UI.dir/gui.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\gui.c" > CMakeFiles\UI.dir\gui.c.i
+
+CMakeFiles/UI.dir/gui.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UI.dir/gui.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\OneDrive TEC\OneDrive - Estudiantes ITCR\GITHUB\iCEclimbers\iCEclimbers\scr\UI\gui.c" -o CMakeFiles\UI.dir\gui.c.s
 
 # Object files for target UI
 UI_OBJECTS = \
-"CMakeFiles/UI.dir/main.c.obj" \
 "CMakeFiles/UI.dir/Networking/NetPackage.c.obj" \
 "CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj" \
 "CMakeFiles/UI.dir/Networking/Connector.c.obj" \
-"CMakeFiles/UI.dir/utils/Converter.c.obj"
+"CMakeFiles/UI.dir/utils/Converter.c.obj" \
+"CMakeFiles/UI.dir/gui.c.obj"
 
 # External object files for target UI
 UI_EXTERNAL_OBJECTS =
 
-UI.exe: CMakeFiles/UI.dir/main.c.obj
 UI.exe: CMakeFiles/UI.dir/Networking/NetPackage.c.obj
 UI.exe: CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj
 UI.exe: CMakeFiles/UI.dir/Networking/Connector.c.obj
 UI.exe: CMakeFiles/UI.dir/utils/Converter.c.obj
+UI.exe: CMakeFiles/UI.dir/gui.c.obj
 UI.exe: CMakeFiles/UI.dir/build.make
 UI.exe: CMakeFiles/UI.dir/linklibs.rsp
 UI.exe: CMakeFiles/UI.dir/objects1.rsp
