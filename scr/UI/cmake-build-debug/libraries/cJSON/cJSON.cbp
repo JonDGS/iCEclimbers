@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cJSON"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libraries\;CMake Files\libraries\cJSON\;CMake Files\libraries\cJSON\library_config\;CMake Files\libraries\cJSON\tests\;CMake Files\libraries\cJSON\fuzzing\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/libcjson.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 cjson"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/libcjson.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 cjson/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cJSON_test">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/cJSON_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 cJSON_test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cJSON_test/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/cJSON_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 cJSON_test/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_array">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_array"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_array/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_array/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_examples">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_examples.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_examples"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_examples/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_examples.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_examples/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_value">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_value.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_value"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_value/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_value.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_value/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unity">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/libunity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 unity"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unity/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/libunity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 unity/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_string">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_string"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_string/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_string/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_with_opts">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_with_opts.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_with_opts"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_with_opts/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_with_opts.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_with_opts/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_number">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_number"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_number/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_number/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_value">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_value.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_value"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_value/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_value.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_value/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_object">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_object.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_object"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_object/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_object.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_object/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_hex4">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_hex4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_hex4"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parse_hex4/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/parse_hex4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 parse_hex4/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_string">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_string"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_string/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_string.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_string/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_number">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_number"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_number/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_number.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_number/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_array">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_array"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_array/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_array.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_array/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_object">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_object.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_object"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="print_object/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/print_object.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 print_object/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_tests">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/misc_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 misc_tests"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_tests/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/misc_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 misc_tests/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compare_tests">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/compare_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 compare_tests"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="compare_tests/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/compare_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 compare_tests/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson_add">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/cjson_add.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 cjson_add"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cjson_add/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/cjson_add.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 cjson_add/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readme_examples">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/readme_examples.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 readme_examples"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readme_examples/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/readme_examples.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 readme_examples/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minify_tests">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/minify_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 minify_tests"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minify_tests/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/minify_tests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 minify_tests/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fuzz_main">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/fuzz_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 fuzz_main"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fuzz_main/fast">
+				<Option output="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/fuzz_main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCJSON_EXPORT_SYMBOLS"/>
+					<Add option="-DCJSON_API_VISIBILITY"/>
+					<Add option="-DENABLE_LOCALES"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 fuzz_main/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/cmake-build-debug/libraries/cJSON/fuzzing/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.c">
+			<Option target="cjson"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.h">
+			<Option target="cjson"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/fuzzing/cjson_read_fuzzer.c">
+			<Option target="fuzz_main"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/fuzzing/fuzz_main.c">
+			<Option target="fuzz_main"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/test.c">
+			<Option target="cJSON_test"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/cjson_add.c">
+			<Option target="cjson_add"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/compare_tests.c">
+			<Option target="compare_tests"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/minify_tests.c">
+			<Option target="minify_tests"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/misc_tests.c">
+			<Option target="misc_tests"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_array.c">
+			<Option target="parse_array"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_examples.c">
+			<Option target="parse_examples"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_hex4.c">
+			<Option target="parse_hex4"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_number.c">
+			<Option target="parse_number"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_object.c">
+			<Option target="parse_object"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_string.c">
+			<Option target="parse_string"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_value.c">
+			<Option target="parse_value"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/parse_with_opts.c">
+			<Option target="parse_with_opts"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/print_array.c">
+			<Option target="print_array"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/print_number.c">
+			<Option target="print_number"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/print_object.c">
+			<Option target="print_object"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/print_string.c">
+			<Option target="print_string"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/print_value.c">
+			<Option target="print_value"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/readme_examples.c">
+			<Option target="readme_examples"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/unity/src/unity.c">
+			<Option target="unity"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/unity/src/unity.h">
+			<Option target="unity"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\cJSON\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/library_config/cJSONConfig.cmake.in">
+			<Option virtualFolder="CMake Files\libraries\cJSON\library_config\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/library_config/cJSONConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\libraries\cJSON\library_config\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/library_config/libcjson.pc.in">
+			<Option virtualFolder="CMake Files\libraries\cJSON\library_config\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\cJSON\tests\"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/fuzzing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\cJSON\fuzzing\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

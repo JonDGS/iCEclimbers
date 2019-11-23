@@ -74,7 +74,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/Connector.c">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/Connector.h">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/NetPackage.c">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/Networking/NetPackage.h">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.c">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/libraries/cJSON/cJSON.h">
+			<Option target="UI"/>
+		</Unit>
 		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/main.c">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/utils/Converter.c">
+			<Option target="UI"/>
+		</Unit>
+		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/utils/Converter.h">
 			<Option target="UI"/>
 		</Unit>
 		<Unit filename="D:/OneDrive TEC/OneDrive - Estudiantes ITCR/GITHUB/iCEclimbers/iCEclimbers/scr/UI/CMakeLists.txt">

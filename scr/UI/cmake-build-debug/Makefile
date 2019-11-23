@@ -122,6 +122,87 @@ UI/fast:
 	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/build
 .PHONY : UI/fast
 
+Networking/Connector.obj: Networking/Connector.c.obj
+
+.PHONY : Networking/Connector.obj
+
+# target to build an object file
+Networking/Connector.c.obj:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/Connector.c.obj
+.PHONY : Networking/Connector.c.obj
+
+Networking/Connector.i: Networking/Connector.c.i
+
+.PHONY : Networking/Connector.i
+
+# target to preprocess a source file
+Networking/Connector.c.i:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/Connector.c.i
+.PHONY : Networking/Connector.c.i
+
+Networking/Connector.s: Networking/Connector.c.s
+
+.PHONY : Networking/Connector.s
+
+# target to generate assembly for a file
+Networking/Connector.c.s:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/Connector.c.s
+.PHONY : Networking/Connector.c.s
+
+Networking/NetPackage.obj: Networking/NetPackage.c.obj
+
+.PHONY : Networking/NetPackage.obj
+
+# target to build an object file
+Networking/NetPackage.c.obj:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/NetPackage.c.obj
+.PHONY : Networking/NetPackage.c.obj
+
+Networking/NetPackage.i: Networking/NetPackage.c.i
+
+.PHONY : Networking/NetPackage.i
+
+# target to preprocess a source file
+Networking/NetPackage.c.i:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/NetPackage.c.i
+.PHONY : Networking/NetPackage.c.i
+
+Networking/NetPackage.s: Networking/NetPackage.c.s
+
+.PHONY : Networking/NetPackage.s
+
+# target to generate assembly for a file
+Networking/NetPackage.c.s:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/Networking/NetPackage.c.s
+.PHONY : Networking/NetPackage.c.s
+
+libraries/cJSON/cJSON.obj: libraries/cJSON/cJSON.c.obj
+
+.PHONY : libraries/cJSON/cJSON.obj
+
+# target to build an object file
+libraries/cJSON/cJSON.c.obj:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.obj
+.PHONY : libraries/cJSON/cJSON.c.obj
+
+libraries/cJSON/cJSON.i: libraries/cJSON/cJSON.c.i
+
+.PHONY : libraries/cJSON/cJSON.i
+
+# target to preprocess a source file
+libraries/cJSON/cJSON.c.i:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.i
+.PHONY : libraries/cJSON/cJSON.c.i
+
+libraries/cJSON/cJSON.s: libraries/cJSON/cJSON.c.s
+
+.PHONY : libraries/cJSON/cJSON.s
+
+# target to generate assembly for a file
+libraries/cJSON/cJSON.c.s:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/libraries/cJSON/cJSON.c.s
+.PHONY : libraries/cJSON/cJSON.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +230,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/main.c.s
 .PHONY : main.c.s
 
+utils/Converter.obj: utils/Converter.c.obj
+
+.PHONY : utils/Converter.obj
+
+# target to build an object file
+utils/Converter.c.obj:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/utils/Converter.c.obj
+.PHONY : utils/Converter.c.obj
+
+utils/Converter.i: utils/Converter.c.i
+
+.PHONY : utils/Converter.i
+
+# target to preprocess a source file
+utils/Converter.c.i:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/utils/Converter.c.i
+.PHONY : utils/Converter.c.i
+
+utils/Converter.s: utils/Converter.c.s
+
+.PHONY : utils/Converter.s
+
+# target to generate assembly for a file
+utils/Converter.c.s:
+	$(MAKE) -f CMakeFiles\UI.dir\build.make CMakeFiles/UI.dir/utils/Converter.c.s
+.PHONY : utils/Converter.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +266,21 @@ help:
 	@echo ... UI
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Networking/Connector.obj
+	@echo ... Networking/Connector.i
+	@echo ... Networking/Connector.s
+	@echo ... Networking/NetPackage.obj
+	@echo ... Networking/NetPackage.i
+	@echo ... Networking/NetPackage.s
+	@echo ... libraries/cJSON/cJSON.obj
+	@echo ... libraries/cJSON/cJSON.i
+	@echo ... libraries/cJSON/cJSON.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... utils/Converter.obj
+	@echo ... utils/Converter.i
+	@echo ... utils/Converter.s
 .PHONY : help
 
 
